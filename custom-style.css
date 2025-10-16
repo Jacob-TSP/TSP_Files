@@ -1,0 +1,36 @@
+/* Hide player controls and navigation */
+.header,
+.footer,
+.navigation,
+.sidebar,
+.player-controls,
+.control-panel,
+div[class*="control"],
+div[class*="nav"],
+div[class*="panel"] {
+    display: none !important;
+}
+
+/* Make backgrounds transparent */
+body,
+html,
+#presentation,
+.background,
+div[class*="background"] {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* Remove any padding/margins that create space */
+body, html {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+/* Center the slide content */
+#slide-container,
+.slide-container,
+div[class*="slide"] {
+    background: transparent !important;
+}
